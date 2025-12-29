@@ -1,0 +1,64 @@
+Question Q4:
+==================================================
+
+Create a page named layout.html, with a stylesheet named layout.css, to build the following web page. Note: you’re not allowed to use this photo as the answer.
+
+[[image inserted here]]
+
+Correct Answer Criteria 
+
+Q4	2	General Structure (2) { Header, Sidebar, Content, Footer sections }
+	3	Layout Float (3) { Sidebar float left (20%), Content float right (70%) }
+	2	Section Clearing (2) { Header and Footer clear both }
+	3	Box Appearance (3) { Solid borders, Background colors, Centered headers }
+
+
+Alternatives:
+
+General Structure (2 pts): Presence of Header, Sidebar, Content, and Footer. I used a flexible lookup for tags (, , etc), IDs, and classes.
+Layout Positioning (3 pts):
+- Floats: Checked for float: left (sidebar) and float: right (content) with widths of 20% and 70%.
+- Flexbox/Grid: Recognized display: flex and display: grid as valid modern alternatives that achieve the same horizontal layout.
+Section Clearing (2 pts): Verified that Header and Footer span the full width. For Floats, I checked for clear: both. For Flex/Grid, this is usually handled by the natural flow or row definitions, which the script credits.
+Box Appearance (3 pts): Checked for borders, background colors, and centered headers/text.
+
+
+Answer:
+
+HTML:
+<section id="header">
+  <h1>header</h1>
+</section>
+
+<section id="sidebar">
+  <h1>sidebar</h1>
+</section>
+
+<section id="content">
+  <h1>main content</h1>
+</section>
+
+<section id="footer">
+  <h1>footer</h1>
+</section>
+
+CSS:
+#header,
+#footer {
+  clear: both;
+}
+#sidebar {
+  float: left;
+  width: 20%;
+}
+#content {
+  float: right;
+  width: 70%;
+}
+section {
+  border: 2px solid #000;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}

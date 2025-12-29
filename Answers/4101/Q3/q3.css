@@ -1,0 +1,20 @@
+p{
+    background-color: rgb(153, 155, 189);
+   
+    
+}
+a{
+   color: #8b3caa;
+   padding: 5px ;
+   font-size: 50px;
+   text-decoration: none;
+   text-align: center;
+   border:0cap
+   
+}
+a:last-child{
+    float: right;
+}
+a:hover{
+    background-color: rgb(255, 0, 0);
+}

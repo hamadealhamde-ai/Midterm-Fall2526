@@ -1,0 +1,25 @@
+ul {
+  background-color: rgb(111, 8, 140);
+  padding: 0px;
+  height: 40px;
+}
+ul li {
+  list-style-type: none;
+  float: left;
+  margin-right: 5%;
+}
+ul li:last-child {
+  float: right;
+  margin-right: 0px;
+}
+ul li a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+ul li a:hover {
+  background-color: #0606f5;}

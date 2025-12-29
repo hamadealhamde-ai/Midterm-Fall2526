@@ -1,0 +1,73 @@
+Question Q3:
+==================================================
+
+Create a page named nav.html, with a stylesheet named nav.css, to build the following navigation bar in a web page. Note: you’re not allowed to use this photo as the answer.
+
+[[Image inserted here]]
+
+Correct Answer Criteria 
+
+Q3	2	Basic Navigation Structure (2) { UL and LI elements, Link tags }
+	2	Horizontal Layout (2) { List bullets removed, floating items left }
+	2	Alignment of Last Link (2) { Login floated to the right }
+	2	Typography & Link Style (2) { Bold text, Uppercase, No underline }
+	2	Interactive States (2) { Hover background color change }
+
+Other ways:
+
+Horizontal Layout:
+- Standard: float: left
+- Alternatives: display: flex, display: inline-block, display: grid, or display: inline (if margins/padding used).
+Alignment of Last Link:
+- Standard: float: right applied to :last-child.
+- Alternatives: margin-left: auto (in flex), float: right on a specific class (like .login), or fixed positioning if used correctly.
+Typography:
+- Standard: text-transform: uppercase.
+- Alternative: Text written in ALL CAPS in the HTML source.
+- Standard: font-weight: bold.
+- Alternative: HTML tags like <b> or <strong>.
+Structure:
+- Standard: <ul> and <li>.
+- Alternatives: <nav> with <a> tags, or <div> blocks if they effectively create a bar. (Partial credit if the visual result is achieved without the requested semantic tags)
+
+One Answer:
+
+HTML:
+<ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact us</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+
+CSS:
+ul {
+  background-color: #eee;
+  padding: 0px;
+  height: 40px;
+}
+
+ul li {
+  list-style-type: none;
+  float: left;
+  margin-right: 5%;
+}
+
+ul li:last-child {
+  float: right;
+  margin-right: 0px;
+}
+
+ul li a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul li a:hover {
+  background-color: #7e7e7e;
+}

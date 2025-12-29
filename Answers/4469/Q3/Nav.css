@@ -1,0 +1,23 @@
+div {
+    background-color: lightgrey;
+    height: 45px;
+    align-content:center;
+}
+
+
+a {
+    margin-right: 20px;
+    padding-inline-start:  30px;
+    font-display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkorchid;
+}
+
+div a:last-child{
+    float: right ;
+}
+
+a:hover{
+    background-color:grey;
+}

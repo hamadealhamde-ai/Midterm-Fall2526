@@ -1,0 +1,25 @@
+ul {
+    background-color: blanchedalmond;
+    display: block;
+    
+    
+    
+}
+
+ul li {
+    
+    list-style: none;
+    
+    text-decoration-style: none;
+    float:left ;
+    margin-right:5%
+
+
+}
+#login {
+    float: right;
+} 
+
+
+
+

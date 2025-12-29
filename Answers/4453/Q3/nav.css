@@ -1,0 +1,16 @@
+nav{
+    background-color: blanchedalmond;
+}
+a{
+    color: aqua;
+    padding: 10px;
+    font-size: 5px;
+    text-align: center;
+}
+a-:last-child{
+    float: right;
+
+}
+a:hover{
+    background-color: brown;
+}

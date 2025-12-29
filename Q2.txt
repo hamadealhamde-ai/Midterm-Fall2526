@@ -1,0 +1,54 @@
+Question Q2:
+==================================================
+
+Create a page named table.html, with a stylesheet named table.css, to build the following web page. Note: you’re not allowed to use this photo as the answer.
+
+[[Image here]]
+
+Correct Answer Criteria 
+
+Q2	2	Basic Table Structure & Border (2)
+	2	Main Header Row (2) { Rowspan 3 for "Day", Colspan 3 for "My Class Schedule" }
+	1	Secondary Header Row (1) { Colspan 2 for "Time", Rowspan 2 for "Topic" }
+	1	Tertiary Header Row (1) { "Start" and "End" headers }
+	2	Monday Content (2) { Rowspan 2 for "Monday", 2 rows of accurate data }
+	2	Tuesday Content (2) { Rowspan 2 for "Tuesday", 2 rows of accurate data }
+
+Answer:
+
+<table border="1">
+  <tr>
+    <th rowspan="3">Day</th>
+    <th colspan="3">My Class Schedule</th>
+  </tr>
+  <tr>
+    <th colspan="2">Time</th>
+    <th rowspan="2">Topic</th>
+  </tr>
+  <tr>
+    <th>Start</th>
+    <th>End</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Monday</td>
+    <td>8:00 AM</td>
+    <td>10:00 AM</td>
+    <td>Introduction to Web Development I</td>
+  </tr>
+  <tr>
+    <td>10:00 AM</td>
+    <td>12:00 PM</td>
+    <td>Introduction to Web Development II</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Tuesday</td>
+    <td>8:00 AM</td>
+    <td>10:00 AM</td>
+    <td>Introduction to Single Page Applications I</td>
+  </tr>
+  <tr>
+    <td>10:00 AM</td>
+    <td>12:00 PM</td>
+    <td>Introduction to Single Page Applications II</td>
+  </tr>
+</table>

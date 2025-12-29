@@ -1,0 +1,24 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: azure;
+}
+h2{
+    color: azure;
+}
+ol[li]{
+    color: red;
+}
+img{
+    height: 200px;
+}
+p{
+    color: burlywood;
+}
+ol{
+    color: coral;
+}
+ul{
+    color: blueviolet;
+}

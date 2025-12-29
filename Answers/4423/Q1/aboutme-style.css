@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: hsla(0, 0%, 0%, 0.81);
+}
+
+p{
+    color:white;
+}
+
+li{
+    color: white;
+}
+
+h3{
+    color: hsl(197, 100%, 49%);
+}
+
+h1{
+    color: hsl(197, 100%, 49%);
+}
+
+#names{
+    color: yellow;
+}
+
+#IMDB{
+    text-decoration: underline;
+    color: red ;
+}
+
+#Floot{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+}

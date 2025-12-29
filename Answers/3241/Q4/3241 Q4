@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <section>
+        content div { font-size:20 px;}
+        footer p { font-style:italic;}
+        
+
+</head>
+<body>
+    <style>
+        < form method="post">
+        <br>
+        <lable1 for= "FN">Full name : </lable1> 
+            input type="text" name="FN" id="FN" size='60' placeholder("Enter your Full Name;")
+        <br>
+        <lable1 for="email"> emil: ></lable1><br>
+            input type="email" name:"email"  id:"email" size'60'placeholder("Enter your email;")
+        <br>
+        <lable1 for="Gender"> Gender: ></lable1><br>
+            input type="Gender=" name="Gender"  id="Gender" size='60' placeholder("Enter your gender;")
+        <br>
+        <lable1 for="massage"> massage: </lable1><br>
+            input type="massage" name="massage"  id="massage" size='60'placeholder("Enter your gender;")
+        <br>
+        <lable1 for ="footer">footer:
+            input type="footer" name="footer"  id="footer" size='60'placeholder("Enter your footer;")
+        <br>
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</body>
+</html>

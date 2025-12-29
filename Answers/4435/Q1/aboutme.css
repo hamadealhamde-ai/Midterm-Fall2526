@@ -1,0 +1,25 @@
+h1{
+    color: yellow;
+}
+body{
+    background-color: lightblue;
+    font-family: arial;
+    font-size: 15px;
+}
+h3{
+    color: yellow;
+}
+a{
+    color: red;
+}
+div{
+    display: flex;
+}
+div p{
+    margin: 10px;
+    text-align: right;
+    
+}
+.p1{
+    color: green;
+}

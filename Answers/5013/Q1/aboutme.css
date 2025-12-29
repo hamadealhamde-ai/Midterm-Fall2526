@@ -1,0 +1,13 @@
+*{
+    background-color: bisque;
+}
+h1, h2{
+    color: blue;
+}
+.IMDB{
+    color:red;
+    text-decoration: underline;
+}
+.yellow{
+    color:rgb(0, 255, 21);
+}

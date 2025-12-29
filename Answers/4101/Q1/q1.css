@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(99, 95, 95);
+}
+h1{
+  color:blue ;
+}
+h2{
+   color: blue ;
+}
+ol[li] {
+     color: red;
+}
+img{ 
+    height: 1px;
+}

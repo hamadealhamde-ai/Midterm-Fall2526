@@ -1,0 +1,55 @@
+#header {
+    clear:both;
+    width:95%;
+    height: 20%;
+    background-color:lightgray;
+    margin: 2%;
+    padding:0% ;
+    text-align: center;
+
+    
+    
+}
+#sidebar {
+    float:left;
+    width:30%;
+    height: 15%;
+    background-color: lightgray;
+    text-align: center;
+    margin: 2%;
+
+}
+#sidebar p {
+    font-size: 0.75rem;
+}
+
+
+
+#registration-form {
+    float: right;
+    width:60%;
+    height: 60%;
+    background-color: lightgray;
+    margin: 2%;
+    padding: 1%;
+ 
+}
+
+button {
+    background-color: lightblue;
+    color:white
+}
+
+#footer {
+    width:90%;
+    height:15%;
+    background-color: lightgray;
+    clear:both;
+    margin: 2%;
+    text-align: center;
+
+}
+
+section {
+    border:1px solid black;
+}

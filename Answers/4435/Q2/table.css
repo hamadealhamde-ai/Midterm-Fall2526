@@ -1,0 +1,13 @@
+/* table, th, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    padding: 0 50;
+    outline: none;
+} */
+table, th, td{
+    text-align: center;
+    border: 1px black solid;
+
+}

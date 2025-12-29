@@ -1,0 +1,42 @@
+html{
+    background-color: rgb(109, 70, 53);
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 100px;
+}
+#h2{
+    font-size: 50px;
+    color:lightblue;
+}
+
+#h3{
+    font-size: 50px;
+    color:lightblue;
+
+}
+
+p{
+    font-size: 20px;
+}
+#p2{
+    padding:0;
+    font-size: 30px;
+    color:lightblue;
+}
+#p3{
+    font-size: 30px;
+    color:lightblue;
+
+}
+
+span{
+    color: rgb(255, 162, 0);
+}
+li{
+    font-size: 20px;
+}
+

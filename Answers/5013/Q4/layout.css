@@ -1,0 +1,19 @@
+.Header{
+    border: solid; 
+    text-align: center;  
+}
+.Sidebar{
+    border:solid; 
+    text-align: left; 
+}
+.Reg{
+    border:solid; 
+    text-align: center; 
+}
+.Footer{
+    border:solid; 
+    text-align: center; 
+}
+.Buttn{
+    background-color: blue  ;
+}

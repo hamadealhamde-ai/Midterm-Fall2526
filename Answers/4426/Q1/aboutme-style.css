@@ -1,0 +1,27 @@
+body{
+    background-color: #585445;
+}
+p,li{
+    color: white;
+}
+h2{
+    color: #a0c3f8;
+    font-size: 30px;
+}
+.about >h1{
+color:#a0c3f8;
+font-size: 70px;
+}
+
+.about >p>span{
+color: #b6b05a;
+}
+.my_favorite ol>li>span{
+color: red;
+text-decoration: underline;
+}
+
+.picture{
+    display: flex;
+    color: white;
+}

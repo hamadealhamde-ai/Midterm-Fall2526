@@ -1,0 +1,17 @@
+body{
+    background-color: pink;
+
+}
+h1{
+    font-size: 40px;
+    color: antiquewhite;
+}
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+.label{
+color: #e33a3a;
+font-weight: bold;
+}

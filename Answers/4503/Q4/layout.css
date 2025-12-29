@@ -1,0 +1,47 @@
+#header,#footer{
+    clear:both;
+    text-align: center;
+}
+#Sidebar{
+    float:left;
+    width:20%;
+   text-align: center;
+}
+#registrationform{
+    float:right;
+    width:70%;
+    height:400px ;
+
+}
+section{
+    border: 2px solid black;
+    background-color: wheat;
+    margin-bottom:2%;
+    text-transform: capitalize;
+    
+}
+label{
+    text-transform: capitalize;
+    
+    
+}
+input,select{
+ width:95%;
+  margin-bottom:10px;
+  padding:5px;
+}
+form{
+    margin-left:15%;
+        margin-right:15%;
+}
+#bt{
+    width:100px;
+    color:white;
+    background-color: blue;
+}
+h1{
+    text-align: center;
+}
+#message{
+    padding-bottom: 30px;
+}

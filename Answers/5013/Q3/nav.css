@@ -1,0 +1,18 @@
+.grey{
+    background-color: grey !important;
+}
+
+.Right{
+    text-transform: uppercase;
+    padding: 10px;
+    margin:0px;
+    text-decoration-style: none;
+    float: left;    
+}
+.Left{ 
+    text-decoration-line: none;
+    padding:10px;
+    margin:0px;
+    float: right;
+    text-decoration: none;
+} 

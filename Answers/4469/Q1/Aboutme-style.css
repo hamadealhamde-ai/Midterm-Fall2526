@@ -1,0 +1,21 @@
+ body {
+            background-color: rgb(154, 154, 88);
+            font-family: Arial,sans-serif;
+            color: white;
+        }
+
+        h1 {
+            color: cornflowerblue;
+        }
+
+        h2 {
+            color: cornflowerblue;
+        }
+
+        .Head{
+            color: yellow;
+        }
+
+        .list{
+            color:red
+        }

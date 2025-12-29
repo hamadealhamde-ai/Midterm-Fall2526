@@ -1,0 +1,8 @@
+ul{background-color: lightgrey; }
+
+ul li{ font-weight: 10px;
+margin: 5px;display: block;text-decoration-style: none; }
+
+ul li a{color: blueviolet;margin-left: 5px; font-weight: 10px; }
+ul li a :last-child{margin-right: 5px;}
+ul li a:hover{background-color:lightblue;}

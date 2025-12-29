@@ -1,0 +1,19 @@
+#content div {
+    font-size: 16px;
+}
+
+#footer p {
+    font-style: italic;
+}
+
+#footer p:first-child {
+    color: blue;
+}
+
+#content>div:active {
+    color: red;
+}
+
+.info {
+    font-weight: bold;
+}

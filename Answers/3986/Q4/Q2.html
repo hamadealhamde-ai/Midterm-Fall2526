@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout.cs</title>
+</head>
+<style>
+    .form_container{
+        background-color: gray ;
+        border-radius: 9 px;
+        padding: 40 auto;
+        margin: 30;
+
+    }
+    header{
+        color: black;
+        font-size: 20 px ;
+        font-weight: bold;
+        border-bottom: 30 px ;
+
+    }
+    label{
+        font-display: block;
+        color: black;
+        border-radius: 4 px ;
+        font-weight: bold;
+
+    }
+    input,textarea{
+        color: brown;
+        
+    }
+    input:focus , textarea:focus{
+        color: blue;
+    }
+    button{
+        color: blue;
+        border-radius: 10 px ;
+      
+    }
+
+</style>
+<body>
+    <div class="form_container">
+        <header> Registration Form</header>
+        <label > Full Name: <input type="text" placeholder=" please Enter your Name" required></label> <br><br>
+        <label >Email: <input type="email" placeholder="Enter Email" required></label><br><br>
+        <label > Gender: <input type="Gender " placeholder=" Gender" required></label>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+nav{
+    background-color:rgb(186, 185, 185)
+
+}
+li{
+    
+    font-size:20px;
+    font-weight: 100px;
+    color:purple;
+}
+
+li:hover{
+    background-color: yellow;
+
+}

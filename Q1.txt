@@ -1,0 +1,13 @@
+Question Q1:
+==================================================
+
+Create a page named aboutme.html, with a stylesheet named aboutme-style.css, to build the following web page. Note: Use screen shots if you can’t find suitable images on your device, and you’re not allowed to use this photo as the answer.
+
+Correct Answer Criteria 
+
+Q1	2	Colored Background  (2)
+	2	First Title. (2) { paragraph، Colored title، colored words, Line afterwards)
+	1	Second Title (1) {bullet points, colored title}
+	2	Third Title (2) { Numbered Points, Italic sentence, Red links}
+	2	Forth Title (2) { 2 Pictures next to each other }
+	1	Fifth Title (1) { Points, italic words }
